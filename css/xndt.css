@@ -1,0 +1,114 @@
+.cont_wrap{
+    width: 1100px;
+    margin: 0 auto;
+    min-height: 500px;
+    padding-top: 120px;
+    /*overflow: hidden;*/
+}
+.title_big{
+    line-height: 60px;
+}
+.title_big,.cont_wrap>h2{
+    text-align: center;
+    font-size: 54px;
+    color: #311759;
+}
+.cont_wrap>h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 6px;
+}
+.cont_wrap img{
+    margin: 15px auto 0;
+    display: block;
+}
+.pen{
+    width: 61px;
+    height: 58px;
+    background: url("../img/pen_list.png")no-repeat;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    cursor: pointer;
+}
+.title_list{
+    font-size: 30px;
+    background: url("../img/pen_line_long.png")no-repeat 0 58px;
+    height: 60px;
+    position: relative;
+    color: #311759;
+}
+.list_cont{
+    padding-top: 40px;
+    overflow: hidden;
+    width: 1130px;
+}
+.content{
+    width: 513px;
+    height: 202px;
+    float: left;
+    background: #FFFFFF;
+    padding: 36px 0 0 20px;
+    margin: 0 20px 30px 0;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    position: relative;
+}
+.img_wrap{
+    height: 168px;
+    width: 260px;
+    overflow: hidden;
+    float: left;
+    margin-right: 17px;
+}
+.content .img_wrap img{
+    width: 260px;
+}
+.cont_text{
+    width: 221px;
+    float: left;
+}
+.content .title_small{
+    font-size: 20px;
+    color: #454548;
+    line-height: 26px;
+    max-height: 53px;
+    overflow: hidden;
+    padding-top: 15px;
+}
+.content .date{
+    color: #6b6a6f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 2px;
+}
+.content p{
+    padding-top: 8px;
+    color: #47464a;
+    line-height: 25px;
+    max-height: 25px;
+    font-family: KaiTi_GB2312;
+    letter-spacing: 0;
+}
+.content .jian{
+    position: absolute;
+    left: 0;
+    top: 36px;
+}
+.content:hover{
+    border-color: #86759e;
+    transform: translateY(-6px);
+    transition:all 0.3s ease
+}
+.list_more{
+    height: 58px;
+    width: 58px;
+    background: url("../img/lis_more_btn_bg.png")no-repeat 0 -58px;
+    margin: 15px auto 130px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.list_more:hover{
+    background-position: 0 0;
+}
